@@ -9,3 +9,5 @@ RUN docker-php-ext-install mysqli pdo pdo_mysql
 
 # 将项目文件复制到工作目录
 COPY . /var/www/html
+
+RUN chown -R www-data:www-data /var/www/html

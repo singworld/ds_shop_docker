@@ -1,5 +1,5 @@
 # 使用官方的 PHP 7.0.1 镜像作为基础镜像
-FROM php:7.0.1-apache
+FROM php:7.4.33-apache
 
 # 设置工作目录
 WORKDIR /var/www/html
